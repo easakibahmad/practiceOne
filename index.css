@@ -2,3 +2,63 @@
     padding: 0;
     margin: 0;
 }
+
+.section-one {
+    display: flex;
+    background-color: black;
+}
+
+.left-part {
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+.right-part {
+    width: 500px;
+    height: 300px;
+    padding: 40px;
+}
+
+.heading-one {
+    font-size: 10vh;
+    color: white;
+}
+
+.heading-pa1 {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.button-one {
+    background-color: #1ae0e7;
+    border-radius: 15px;
+    color: black;
+    padding: 10px 22px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 4px 2px;
+    font-weight: 900;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* 
+    display: inline-block;
+     */
+}
+
+.button-one:hover {
+    background-color: #4CAF50;
+    color: rgb(33, 32, 32);
+    font-weight: 900;
+}
+
+.heading-part {
+    color: chartreuse;
+}
+
+.first-link {
+    text-decoration: none;
+}
